@@ -1,9 +1,6 @@
 # CFB-Scores
 Use rpi-rgb-led-matrix to scroll current week's CFB scores on rpi and led matrix
 
-# NFL-Scores
-Use rpi-rgb-led-matrix to scroll current week's NFL scores on rpi and led matrix using ESPN's hidden API endpoints
-
 This project is inspired and assited by many, to include
 
 https://github.com/hzeller/rpi-rgb-led-matrix
@@ -192,3 +189,9 @@ Add as a service
 Add to startup
 
 Could use guidance on how to repackage all of this and install it in home/ instead of buried in directories
+
+Want to add a second matrix for larger display, easier to read all the text
+
+Want to add team logos
+
+Would like to also probably make a new project to display CFB games like https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard  The NFL flavor of this project is not working. PIL v10 and the rpi-rgb-led-matrix don't get along yet!
