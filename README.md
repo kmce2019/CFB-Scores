@@ -170,7 +170,9 @@ if __name__ == "__main__":
     run_espn_api = RunESPNAPI(options=options)
     if not run_espn_api.process():
         run_espn_api.print_help()
+```
 
+```
 CTRL-X
 Y
 ENTER
